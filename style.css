@@ -1,0 +1,156 @@
+body {
+  background: #141519;
+  min-height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+section.principal-body {
+  display: grid;
+  align-items: center;
+
+}
+
+div.metion {
+  color: white;
+
+}
+
+div.metion a {
+  color: white;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+}
+
+div.metion a:hover {
+  text-decoration: underline;
+
+  color: blue;
+}
+
+div#content {
+  box-sizing: border-box;
+  background-color: #202731;
+  margin: 10% auto;
+  width: 380px;
+  height: 380px;
+  border-radius: 35px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.849);
+  padding: 30px;
+}
+
+div#star {
+  background: #262F38;
+  width: 40px;
+  height: 38px;
+  border-radius: 70%;
+  box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.404);
+}
+
+div#star img {
+  box-sizing: border-box;
+  padding: 9px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.titulo {
+  margin-top: 23px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  margin-top: 23px;
+  margin-bottom: 29px;
+  font-size: 14px;
+}
+
+/*ul#itens-list{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+  }
+  ul#itens-list li{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    margin-left: 8px;
+    list-style: none;
+    color: #707982;
+    display: block;
+    display: inline-block;
+    background: #262F38;
+    width: 50px;
+    border-radius: 50%;
+    transition: ease-in-out 0.7s;
+  }
+  ul#itens-list li:hover{
+    background: #7C8898;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+  }*/
+input#send {
+  box-sizing: border-box;
+  margin-top: 29px;
+  width: 320px;
+  height: 50px;
+  border-radius: 55px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: #FC7613;
+  transition: ease-in-out 0.3s;
+}
+
+input#send:hover {
+  background-color: white;
+  color: #FC7613;
+  cursor: pointer;
+}
+
+div#radios {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.escolha {
+  margin-left: 5px;
+  appearance: none;
+  background: #262F38;
+  width: 50px;
+  height: 50px;
+  display: block;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  outline: none;
+  transition: ease-in-out 777ms;
+}
+
+.escolha:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 50px;
+  height: 50px;
+  background: #FC7613;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 777ms ease-in-out;
+}
+
+.escolha:checked:before {
+  opacity: 1;
+}
+
+.escolha:focus {
+  box-shadow: 0 0 5px #262f38c9;
+}
+
+.escolha:hover {
+  background-color: #7C8898;
+}

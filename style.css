@@ -66,30 +66,6 @@ p {
   font-size: 14px;
 }
 
-/*ul#itens-list{
-    box-sizing: border-box;
-    padding: 0;
-    margin:0;
-  }
-  ul#itens-list li{
-    box-sizing: border-box;
-    text-align: center;
-    padding: 10px;
-    margin-left: 8px;
-    list-style: none;
-    color: #707982;
-    display: block;
-    display: inline-block;
-    background: #262F38;
-    width: 50px;
-    border-radius: 50%;
-    transition: ease-in-out 0.7s;
-  }
-  ul#itens-list li:hover{
-    background: #7C8898;
-    color: white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
-  }*/
 input#send {
   box-sizing: border-box;
   margin-top: 29px;

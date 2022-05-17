@@ -1,2 +1,2 @@
-Avaliation code (Beta)
+Avaliation code
 
